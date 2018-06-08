@@ -1,9 +1,17 @@
+-- This file was automatically generated for the LuaDist project.
+
 package = "torch-dir-loader"
-version = "scm-1"
+version = "0.6-0"
+-- LuaDist source
 source = {
-    url = "https://github.com/gforge/torch-dir-loader/archive/master.tar.gz",
-    dir = "torch-dir-loader-master"
+  tag = "0.6-0",
+  url = "git://github.com/LuaDist-testing/torch-dir-loader.git"
 }
+-- Original source
+-- source = {
+--   url = "https://github.com/gforge/torch-dir-loader/archive/v0.6-0.tar.gz",
+--   dir = "torch-dir-loader-0.6-0"
+-- }
 description = {
     summary = "Loads a directory of files",
     detailed = [[

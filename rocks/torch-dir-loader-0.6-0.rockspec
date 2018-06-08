@@ -1,17 +1,9 @@
--- This file was automatically generated for the LuaDist project.
-
 package = "torch-dir-loader"
-version = "0.5-1"
--- LuaDist source
+version = "0.6-0"
 source = {
-  tag = "0.5-1",
-  url = "git://github.com/LuaDist-testing/torch-dir-loader.git"
+  url = "https://github.com/gforge/torch-dir-loader/archive/v0.6-0.tar.gz",
+  dir = "torch-dir-loader-0.6-0"
 }
--- Original source
--- source = {
---     url = "https://github.com/gforge/torch-dir-loader/archive/v0.5-1.tar.gz",
---     dir = "torch-dir-loader-0.5-1"
--- }
 description = {
     summary = "Loads a directory of files",
     detailed = [[
@@ -25,7 +17,10 @@ description = {
 dependencies = {
     "lua >= 5.1",
     "torch >= 7.0",
-    "argcheck >= 2.0"
+    "argcheck >= 2.0",
+    "luafilesystem >= 1.6.3",
+    "paths",
+    "moses >= 1.4.0"
 }
 build = {
    type = "cmake",
